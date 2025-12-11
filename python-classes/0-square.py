@@ -1,16 +1,16 @@
 #!/usr/bin/python3
+"""
+Function to take size and made it private
+Args:
+size(int): size must be integer
+Returns:
+size in a private attribute
+"""
 class Square:
     """
     A class made for calculating the size of square
     """
     def Size(self, size):
-        """
-        Function to take size and made it private
-        Args:
-            size(int): size must be integer
-        Returns:
-            size in a private attribute
-        """
         self.__size = size
 
 
