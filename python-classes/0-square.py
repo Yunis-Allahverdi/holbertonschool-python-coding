@@ -1,18 +1,23 @@
 #!/usr/bin/python3
 """
-Function to take size and made it private
-Args:
-size(int): size must be integer
-Returns:
-size in a private attribute
+Module for defining a square class
 """
+
+
 class Square:
     """
-    A class made for calculating the size of square
+    A class used for calculating the size of square
     """
-    def Size(self, size):
+
+    def __init__(self, size):
+        """
+        Initialize a square distance.
+
+
+        Args:
+            size(int): the size of the square
+        """
         self.__size = size
 
 
-sq1 = Square()
-sq1.size = 55
+sq1 = Square(60)
