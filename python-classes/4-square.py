@@ -21,10 +21,10 @@ class Square:
         if self.size == 0:
             print()
         else:
-            for i in range(self.size ** 2):
-                print("#", end="")
-                if i % (self.size - 1) == 0:
-                    print()
+            for i in range((self.size ** 2) // self.size):
+                for j in range(self.size):
+                    print("#", end="")
+                print()
 
     @property
     def size(self):
