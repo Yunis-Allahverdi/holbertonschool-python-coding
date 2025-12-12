@@ -19,8 +19,8 @@ class Square:
         return self.__size
 
     def area(self):
-        area = self.__size ** 2
-        return area
+        self.area = self.__size ** 2
+        return self.area
 
     @sizer.setter
     def sizer(self, size):
