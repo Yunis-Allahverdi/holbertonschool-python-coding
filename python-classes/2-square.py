@@ -13,14 +13,13 @@ class Square:
 
     def __init__(self, size=0):
         self.size = size
-    
+
     def area(self):
         return self.size ** 2
 
     @property
     def sizer(self):
         return self.__size
-    
 
     @sizer.setter
     def sizer(self, size):
