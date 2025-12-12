@@ -17,7 +17,8 @@ class Square:
     @property
     def sizer(self):
         return self.__size
-
+    
+    @property
     def area(self):
         return self.__size ** 2
 
